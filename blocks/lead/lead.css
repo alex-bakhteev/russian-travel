@@ -8,14 +8,21 @@
     max-width: 984px;
 }
 
+@media screen and (max-width: 1280px){
+    .lead {
+        width: 76.875vw;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .lead {
-        max-width: 928px;
+        width: 90.625vw;
     }
 }
 
 @media screen and (max-width: 768px){
     .lead {
+        max-width: 100%;
         width: 100vw;
     }
 }

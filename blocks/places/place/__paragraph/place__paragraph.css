@@ -3,10 +3,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 29.34px;
+    line-height: 163%;
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 26px;
+    max-width: 100%;
 }
 
 .place__paragraph:last-child {
@@ -16,7 +17,6 @@
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
-        line-height: 163%;
     }
 }
 

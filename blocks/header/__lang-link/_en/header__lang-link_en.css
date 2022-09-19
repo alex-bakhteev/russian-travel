@@ -1,7 +1,7 @@
 .header__lang-link_en {
     margin-bottom: 0;
     margin-top: 46px;
-    margin-right: 48px;
+    margin-right: 0;
     margin-left: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -12,13 +12,16 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 505px) {
     .header__lang-link_en {
-        margin-right: 24px;
+        margin-right: 16px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 30px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
     .header__lang-link_en {
         margin-right: 16px;
         font-size: 18px;

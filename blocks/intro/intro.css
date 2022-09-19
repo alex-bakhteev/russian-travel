@@ -1,19 +1,27 @@
 .intro {
-    margin-left: 148px;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    max-width: 690px;
+    max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin-left: 48px;
+        margin-left: 4.6875vw;
     }
 }
 @media screen and (max-width: 768px) {
     .intro {
         margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .intro {
+        max-width: 100vw;
+        margin-left: 16px;
+        margin-right: 0;
     }
 }
 
