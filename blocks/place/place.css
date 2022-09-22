@@ -10,36 +10,34 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place {
         grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place {
         max-width: 100%;
-        grid-template-columns: 47.270% 45.8333333333333%;
-        gap: 6.25% 3.6458333333333%;
-        margin-bottom: 13.888888888889%;
+        grid-template-columns: 47.27% 49%;
+        gap: 48px 28px;
+        margin-bottom: 73px;
     }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 767px) {
     .place {
-        width: 93.75%;
+        width: 100%;
         grid-template-columns: 1fr;
-        gap: 10vw;
+        gap: 32px;
         margin-bottom: 15.625vw;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place {
-        width: 100%;
-        grid-template-columns: 1fr;
-        gap: 10vw;
-        margin-bottom: 15.625%;
+        max-width: 320px;
+        margin-bottom: 50px;
     }
 }

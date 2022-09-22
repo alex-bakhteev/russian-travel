@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .footer {
         max-width: 93.75vw;
         margin-left: 24px;
@@ -27,18 +27,11 @@
     }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 767px) {
     .footer {
-        flex-direction: column;
         margin-left: 16px;
-        align-items: flex-start;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer {
+        margin-top: 64px;
         flex-direction: column;
-        margin-left: 16px;
         align-items: flex-start;
     }
 }

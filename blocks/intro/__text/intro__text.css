@@ -14,20 +14,11 @@
 @media screen and (max-width: 1024px) {
     .intro__text {
         margin-left: 0;
-        font-size: 16px;
-        line-height: 163%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__text {
         max-width: 93.75vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__text {
-        font-size: 16px;
-        line-height: 163%;
     }
 }

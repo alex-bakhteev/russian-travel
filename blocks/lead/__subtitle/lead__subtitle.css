@@ -12,6 +12,14 @@
     align-self: center;
 }
 
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        max-width: 93.75vw;
+        font-size: 4.5vw;
+        line-height: 6.25vw;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .lead__subtitle {
         max-width: 288px;

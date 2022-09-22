@@ -12,18 +12,17 @@
     align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-        font-size: 9.375vw;
+        font-size: 56px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 505px) {
     .cover__title {
         max-width: 288px;
         font-size: 32px;
-        font-weight: 900;
-        line-height: 35px;
+        line-height: 109%;
         letter-spacing: 0em;
     }
 }

@@ -1,21 +1,27 @@
-.place__website_link {
+.place__paragraph {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
+    line-height: 163%;
     color: #FFFFFF;
     margin-top: 0;
+    margin-bottom: 26px;
+    max-width: 100%;
+}
+
+.place__paragraph:last-child {
     margin-bottom: 0;
 }
 
-.place__website_link:hover {
-    opacity: 0.8;
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    .place__website_link {
+    .place__paragraph {
         margin-left: 16px;
         margin-right: 16px;
     }

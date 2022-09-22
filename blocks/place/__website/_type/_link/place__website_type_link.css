@@ -1,27 +1,21 @@
-.place__paragraph {
+.place__website_type_link {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 22px;
+    text-decoration-line: underline;
     color: #FFFFFF;
     margin-top: 0;
-    margin-bottom: 26px;
-    max-width: 100%;
-}
-
-.place__paragraph:last-child {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        font-size: 16px;
-    }
+.place__website_type_link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph {
+    .place__website_type_link {
         margin-left: 16px;
         margin-right: 16px;
     }

@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     max-width: 1184px;
-    height: 740px;
-    background: url(../../images/trains.png) rgba(0, 0, 0, 0.3);
+    min-height: 740px;
+    background: url(../../images/trains.png) rgba(42, 44, 47, 0.3);
     background-size: contain;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -14,35 +14,21 @@
     margin-top: 92px;
     margin-bottom: 0;
     text-decoration: none;
-    overflow: hidden;
 }
 
 .cover:hover {
-    background: url(../../images/trains.png) rgba(0, 0, 0, 0.8);
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
         width: 92.5vw;
-        height: 62.5vw;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    .cover:hover {
-        width: 92.5vw;
-        height: 62.5vw;
-        background-size: contain;
-        background-repeat: no-repeat;
+        min-height: 62.5vw;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
-        width: 100%;
-    }
-
-    .cover:hover {
         width: 100%;
     }
 }
@@ -51,18 +37,10 @@
     .cover {
         margin-top: 90px;
     }
-
-    .cover:hover {
-        margin-top: 90px;
-    }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        margin-top: 66px;
-    }
-
-    .cover:hover {
         margin-top: 66px;
     }
 }

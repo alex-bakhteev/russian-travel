@@ -26,15 +26,6 @@
 
 @media screen and (max-width: 505px) {
     .intro__title {
-        margin-left: 0;
-        font-size: 32px;
-        line-height: 35px;
-        margin-top: 64px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__title {
         font-size: 32px;
         line-height: 35px;
         margin-top: 64px;
